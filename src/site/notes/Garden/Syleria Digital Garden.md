@@ -2,7 +2,7 @@
 {"dg-publish":true,"permalink":"/garden/syleria-digital-garden/","tags":["admin","gardenEntry"],"dgHomeLink":true,"dgPassFrontmatter":false}
 ---
 
-# [Syleria Digital Garden](https://syleria.netlify.app/)
+# Syleria Digital Garden
 
 ## Welcome to the Syleria digital garden!
 This may turn into a blog someday, but for now it’s just a convenient place to publish links, saved webpages, notes, and random thoughts.
