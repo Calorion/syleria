@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/garden/syleria-digital-garden/","tags":["admin","gardenEntry"],"dgHomeLink":true,"dgPassFrontmatter":false}
+{"title":"Syleria Digital Garden","url":"<https://syleria-digital-garden.netlify.app/>","created":"2022-09-04T23:21:00-05:00","updated":"2022-09-05T23:43:33-05:00","aliases":[],"tags":["admin","gardenEntry"],"old url":"<https://chipper-sfogliatella-bafb99.netlify.app/>, <https://syleria-digital-garden.netlify.app/>","dg-home":true,"dg-publish":true,"permalink":"/garden/syleria-digital-garden/","dgHomeLink":true,"dgPassFrontmatter":true}
 ---
 
 # Syleria Digital Garden
