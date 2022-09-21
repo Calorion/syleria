@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/garden/obsidian-daily-note-readme/","dgHomeLink":true,"dgPassFrontmatter":false}
+{"dg-publish":true,"permalink":"/garden/obsidian-daily-note-readme/","dgHomeLink":false,"dgPassFrontmatter":false}
 ---
 
 
