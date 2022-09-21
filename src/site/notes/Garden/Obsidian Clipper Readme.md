@@ -2,7 +2,7 @@
 {"dg-publish":true,"permalink":"/garden/obsidian-clipper-readme/","dgHomeLink":true,"dgPassFrontmatter":false}
 ---
 
-Readme
+Obsidian Clipper Readme
 ======
 
 Obsidian Clipper by Jim Syler
@@ -88,7 +88,7 @@ Contains actions from:
 - [Dictionary keys and values example](https://www.reddit.com/r/shortcuts/comments/cx5xjc/working_with_dictionaries/)
 - [Remove JSON value by key](https://www.reddit.com/r/shortcuts/comments/akn3k0/data_storage_part_3_removing_stored_values/)
 
-### Version History
+## Version History
 
 ### 3.0.0-b.1 (2022-04-21)
 #### New Features
