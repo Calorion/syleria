@@ -3,11 +3,13 @@
 ---
 
 
-Obsidian Daily Note Readme
+[Obsidian Daily Note](https://routinehub.co/shortcut/12864/) Readme
 ======
 
 Obsidian Daily Note by Jim Syler
 @Calion
+
+View this readme online: <https://syleria.netlify.app/garden/obsidian-daily-note-readme/>
 
 This shortcut creates a new daily note with metadata in Obsidian.
 
@@ -129,3 +131,5 @@ Let me know if you’re aware of other products that should go here.
 #### New Features
 - Creates a new journal entry in Obsidian with location and date/time information in the frontmatter.
 - If the [Obsidian Leaflet](https://obsidian.md/plugins?id=obsidian-leaflet-plugin) plugin is installed, creates a Note info callout with metadata and a map
+
+updated: 2022-09-21T12:23:20-05:00
