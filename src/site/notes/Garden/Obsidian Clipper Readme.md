@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/garden/obsidian-clipper-readme/","dgHomeLink":true,"dgPassFrontmatter":false}
+{"dg-publish":true,"permalink":"/garden/obsidian-clipper-readme/","dgHomeLink":false,"dgPassFrontmatter":false}
 ---
 
 Obsidian Clipper Readme
