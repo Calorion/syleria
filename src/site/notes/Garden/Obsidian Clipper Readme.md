@@ -8,6 +8,10 @@ Obsidian Clipper Readme
 Obsidian Clipper by Jim Syler
 @Calion
 
+View this readme online: <https://syleria.netlify.app/garden/obsidian-clipper-readme/>
+
+Latest version always available on [RoutineHub](https://routinehub.co/shortcut/11156/).
+
 This shortcut takes input from the share sheet and imports it into the Obsidian app.
 
 In principle, it will accept any input. In practice, some formats will work better than others. If you run into formats it handles poorly, leave a comment on the RoutineHub page linked below.
@@ -180,3 +184,5 @@ Contains actions from:
 
 ### 1.0.0
 - Initial release, inspired by <https://forum.obsidian.md/t/feature-ios-share-sheet-extension/14873/>
+
+updated: 2022-09-21T12:03:40-05:00
