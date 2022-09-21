@@ -3,7 +3,7 @@
 ---
 
 
-Readme
+Obsidian Daily Note Readme
 ======
 
 Obsidian Daily Note by Jim Syler
@@ -75,8 +75,7 @@ Let me know if you’re aware of other products that should go here.
 - Contains actions from [UpdateKit API Example](https://www.mikebeas.com/updatekit-api/v1)
 - Contains actions from [Save and retrieve API Key](https://www.reddit.com/r/shortcuts/comments/ajdq6d/data_storage_part_1_storing_simple_values/)
 
-Version History
----------------
+## Version History
 
 ### 2.0.0b (2022-09-03)
 #### New features
