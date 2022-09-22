@@ -34,7 +34,7 @@ Latest version always available at <https://routinehub.co/shortcut/11156/>
 
  If this has been helpful to you, feel free to [buy me a coffee!](https://www.buymeacoffee.com/calion)
 
- Please report any bugs in a comment on [RoutineHub](https://routinehub.co/shortcut/11156/) or on [Twitter](https://twitter.com/intent/tweet?text=@calion%20Re%20%20Obsidian%20%20Clipper%3A).
+ Please report any bugs in a comment on [RoutineHub](https://routinehub.co/shortcut/11156/) or on [Twitter](https://twitter.com/intent/tweet?text=@calion%20Re%20Obsidian%20Clipper%3A%20).
 
 ### Known bugs and limitations
 - [ ] Text containing links to YouTube videos will not import as text, but as a YouTube video
@@ -42,7 +42,7 @@ Latest version always available at <https://routinehub.co/shortcut/11156/>
 - [ ] Shows up for—but does not successfully import—iPadOS screenshots
 - [ ] Web article headings show webpage title, not the heading seen in Reader. This is a bug in Shortcuts; [reported](https://openradar.appspot.com/radar?id=5627250862981120)
 - [ ] Cannot support `blob:` URLs
-- [ ] Evernote notes imported from Evernote’s "Export note" function do not include links to the original Evernote note
+- [ ] Evernote notes imported from Evernote’s “Export note” function do not include links to the original Evernote note
 - [ ] Evernote formatting is not as good as it could be. The current method should be redone using XML parsing
 
 There are no immediate plans to fix these bugs, so if any of them are bothering you, let me know via the links above!
@@ -52,12 +52,12 @@ There are no immediate plans to fix these bugs, so if any of them are bothering 
 - [ ] Sticky preferences: Beta versions, do not open Obsidian (for 3.0 release)
 - [ ] Support “File” filetype, e.g. Pages files
 - [ ] Create button for user to open result in Obsidian, or not
-- [ ] Prompt user to buy the developer a coffee after every 10 launches (for 3.0 release, but disable in beta)
+- [ ] Prompt user to buy the developer a coffee after every 10 launches, with “not right now” and “never ask me again” options (for 3.0 release, but disable in beta)
 - [x] Open Obsidian early to ensure notes open properly
-- [ ] Ask every time what folder to put it in (for 3.0 release)
+- [x] Ask every time what folder to put it in (for 3.0 release)
 - [ ] Ask for new note or append earlier, so user can ignore until it’s done (for 3.0 release)
 - [ ] You can get the selected text from the Get Details of Safari Web Page action! I gotta use that somehow
-- [ ] Pop up a multiple-choice menu asking for clipping options: Append, tags, notes, etc. Then have successive screens depending on the options chosen (for 3.0 release)
+- [ ] Pop up a multiple-choice menu asking for clipping options: Append, tags, notes, show result in Obsidian, etc. Then have successive screens depending on the options chosen (for 3.0 release)
 - [x] Change documentation format to Markdown and reformat per my Daily Notes shortcut. Also remove periods at the end of bullets
 - [ ] Advertise my other shortcuts in the readme (for 3.0 release)
 - [ ] Advertise in the forums listed in Similar Products
@@ -72,6 +72,8 @@ There are no immediate plans to fix these bugs, so if any of them are bothering 
 - [x] Move readme online entirely, just keeping basic info that won’t change in the Shortcut?
 - [ ] Show full documentation on first run (and how to find it again)
 	- Nice example documentation in the BART shortcut
+- [ ] Have a way to permanently exclude folders from the list that appears when you choose New File. 
+- [ ] Consider including the Evernote link for Evernote notes. This will be involved and kind of hacky, as it’s got to search for the note name in Evernote. Luckily I already created the mechanism to do so, but it’s kind of cumbersome for the user. I’ve also considered writing a separate shortcut for this purpose
 
 ### Similar products
 - [MarkDownload](https://forum.obsidian.md/t/markdownload-markdown-web-clipper/173)
@@ -103,11 +105,12 @@ Contains actions from:
 - When New File is chosen, images and photos will be imported into a new Note, not merely placed in the Attachments folder
 - Changed name from “Save to Obsidian” to “Obsidian Clipper”
 - Asks what folder to save new clips in
+- Full readme file moved to https://syleria.netlify.app/garden/obsidian-clipper-readme/, leaving a stub in the Shortcut
 
 #### Bug Fixes
 - Removed slashes from filenames, which caused files to be created in subfolders [in progress (or not)]
-- Fixed issues caused by inputs having multiple data types. User will now be asked to choose which to use.
-- Errors out on `blob:` URLs rather than failing silently.
+- Fixed issues caused by inputs having multiple data types. User will now be asked to choose which to use
+- Errors out on `blob:` URLs rather than failing silently
 - Improved handling of Internet connection check
 - Fixed an issue where clips with the same name as an existing file would be appended to the existing file
 - Opens Obsidian earlier to help ensure notes open correctly
