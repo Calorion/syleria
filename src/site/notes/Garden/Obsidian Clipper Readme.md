@@ -69,7 +69,9 @@ There are no immediate plans to fix these bugs, so if any of them are bothering 
 - [ ] The ability to import Evernote files from the app instead of from ENEX files may go away at some point, as I don’t want to have to support two different methods, and this way is largely inferior (the only reason this function exists at all is that I had already written it before I discovered that exporting ENEX files was possible on mobile).
 - [ ] Separate prefs and info dicts, as in Daily Notes (for 3.0 release)
 - [x] Switch bugs and features in the readme
-- [ ] Move readme online entirely, just keeping basic info that won’t change in the Shortcut?
+- [x] Move readme online entirely, just keeping basic info that won’t change in the Shortcut?
+- [ ] Show full documentation on first run (and how to find it again)
+	- Nice example documentation in the BART shortcut
 
 ### Similar products
 - [MarkDownload](https://forum.obsidian.md/t/markdownload-markdown-web-clipper/173)
@@ -98,7 +100,7 @@ Contains actions from:
 - Adds runtime options to import Web pages as Markdown, HTML, or PDF
 - Adds frontmatter indicating the origin of the clip, date created, and possibly other info [In progress]
 - Adds image support
-- When New File is chosen, images and photos will be imported into a new Note, not merely placed in the Attachments folder [In progress]
+- When New File is chosen, images and photos will be imported into a new Note, not merely placed in the Attachments folder
 - Changed name from “Save to Obsidian” to “Obsidian Clipper”
 - Asks what folder to save new clips in
 
