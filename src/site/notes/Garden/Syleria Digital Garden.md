@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/garden/syleria-digital-garden/","tags":["admin","gardenEntry"],"dgHomeLink":false,"dgPassFrontmatter":false,"dgShowBacklinks":false,"dgShowInlineTitle":true}
+{"dg-publish":true,"permalink":"/garden/syleria-digital-garden/","tags":["admin","gardenEntry"],"dgHomeLink":true,"dgPassFrontmatter":false,"dgShowBacklinks":false,"dgShowInlineTitle":true}
 ---
 
 
