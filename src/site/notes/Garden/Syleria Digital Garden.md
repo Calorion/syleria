@@ -3,7 +3,7 @@
 ---
 
 
-## [Welcome to the Syleria digital garden!](https://syleria.netlify.app/)
+## Welcome to the Syleria digital garden!
 This may turn into a blog someday, but for now it’s just a convenient place to publish links, saved webpages, notes, and random thoughts.
 
 Truth be told, I don’t know whether really want a published [digital garden](https://jzhao.xyz/posts/networked-thought/); I think I want a blog. Indeed, I have [one](https://blog.syleria.net/). Well, [several](https://syleria.net). But I haven’t updated any of them in a long time because they need reworked in order to be functional. Also, back when I was blogging I was using [MacJournal](http://thoughts.blog.syleria.net/2005/01/me-blogging.html) as my journaling software, which has great support for uploading to blogs. But it’s never had a decent iOS app, and after [MacJournal for iPhone](https://apps.apple.com/us/app/macjournal-for-iphone/id357602069) ate much of a long blog entry I had composed, I gave up and finished switching to [Evernote](https://evernote.com/) for journaling (after flirting with [OneNote](https://www.onenote.com/) and, until it died, [Springpad](https://en.wikipedia.org/wiki/Springpad)). Which meant I stopped blogging as well, because although Evernote does allow you to [easily publish notes on the Web](https://help.evernote.com/hc/en-us/articles/360053591694-Share-a-note-via-public-link), a feature I’ve [used](https://www.evernote.com/shard/s120/sh/b83e35b8-075a-4ffe-93e3-522b78be31ed/5c12582ac5154d8d1d2760796bc56de0) on occasion, it’s hardly a blogging function.
