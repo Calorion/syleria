@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/garden/obsidian-clipper-readme/","dgHomeLink":false,"dgPassFrontmatter":false,"dgShowBacklinks":false,"dgShowInlineTitle":true}
+{"dg-publish":true,"permalink":"/garden/obsidian-clipper-readme/","dgHomeLink":false,"dgPassFrontmatter":false,"dgShowBacklinks":false,"dgShowInlineTitle":false}
 ---
 
 [Obsidian Clipper](https://routinehub.co/shortcut/11156/) Readme
@@ -46,9 +46,11 @@ Please report any bugs in a comment on [RoutineHub](https://routinehub.co/shortc
 - [ ] Evernote formatting is not as good as it could be. The current method should be redone using XML parsing
 - [ ] Clips cannot be saved to nested folders
 	- There's a workaround: You can choose “\*New Folder\*” and enter whatever path you want, whether it already exists or not, and the file will be saved there. Cumbersome, but effective
-- [x] Will leave colons in titles in `title:` field in frontmatter, which causes YAML errors
-	- Fix by putting single quotes around titles
+- [ ] Will leave colons in titles in `title:` field in frontmatter, which causes YAML errors
+	- [ ] Fix by putting single quotes around titles
 - [x] YAML multiline tags have two spaces before the hyphen, whereas this Shortcut uses only one.
+	- [ ] Unfixed this one, for compatibility with Frontmatter Tag Suggest
+		- [ ] On that note, recommend useful plugins, like that one, to use with this shortcut?
 - [ ] If you leave a comment on a clip, and the Shortcut subsequently fails for some reason, the comment is lost.
 	- The easiest way to fix this is to move the Get Contents action to before this step, but that contradicts my wish to have the input happen before the time-consuming parts of the shortcut. I wonder if I could fix this by saving the comment to disk, deleting it if the Shortcut completes, and reloading it if they try the same site (or whatever) again
 - [ ] Probably fails on non-tweet Twitter links
@@ -63,9 +65,10 @@ There are no immediate plans to fix these bugs, so if any of them are bothering 
 - [x] Create button for user to open result in Obsidian, or not
 - [ ] Prompt user to buy the developer a coffee after every 10 launches, with “not right now” and “never ask me again” options (for 3.0 release, but disable in beta)
 - [x] Open Obsidian early to ensure notes open properly
+	- [ ] Undid this
 - [x] Ask every time what folder to put it in (for 3.0 release)
 - [x] Ask for new note or append earlier, so user can ignore until it’s done (for 3.0 release)
-- [ ] You can get the selected text from the Get Details of Safari Web Page action! I gotta use that somehow
+- [x] You can get the selected text from the Get Details of Safari Web Page action! I gotta use that somehow
 - [x] Pop up a multiple-choice menu asking for clipping options: Append, tags, notes, show result in Obsidian, etc. Then have successive screens depending on the options chosen (for 3.0 release)
 - [x] Change documentation format to Markdown and reformat per my Daily Notes shortcut. Also remove periods at the end of bullets
 - [ ] Advertise my other shortcuts in the readme (for 3.0 release)
@@ -73,7 +76,7 @@ There are no immediate plans to fix these bugs, so if any of them are bothering 
 - [ ] Upload shortcut to other services (and then largely ignore, trusting the update mechanism)
 - [ ] Add option in beta versions to revert to last stable version (link will have to be manually input for every new stable), along with an explanation that it’s a beta, and you’re expected to test and report bugs (for 3.0 release)
 - [ ] Go over whole Shortcut (for 3.0 release)
-- [ ] Add “Link only” to ~~Web~~ and YouTube (and, hell, Evernote) options. Yes, the Obsidian share sheet extension can already do this better, but why have to switch between? (for 3.0 release)
+- [ ] Add “Link only” to ~~Web~~ and YouTube (and, hell, Evernote and Reddit) options. Yes, the Obsidian share sheet extension can already do this better, but why have to switch between? (for 3.0 release)
 - [ ] Add support for Evernote tasks
 - [ ] The ability to import Evernote files from the app instead of from ENEX files may go away at some point, as I don’t want to have to support two different methods, and this way is largely inferior (the only reason this function exists at all is that I had already written it before I discovered that exporting ENEX files was possible on mobile).
 - [ ] Separate prefs and info dicts, as in Daily Notes (for 3.0 release)
@@ -84,26 +87,35 @@ There are no immediate plans to fix these bugs, so if any of them are bothering 
 - [ ] Have a way to permanently exclude folders from the list that appears when you choose New File.
 - [ ] Consider including the Evernote link for Evernote notes. This will be involved and kind of hacky, as it’s got to search for the note name in Evernote. Luckily I already created the mechanism to do so, but it’s kind of cumbersome for the user. I’ve also considered writing a separate shortcut for this purpose
 - [ ] Format latitude and longitude data (from Evernote specifically) to be compatible with [Leaflet](https://github.com/valentine195/obsidian-leaflet-plugin)
-- [ ] Use (*not* copy) R downloader to download YouTube video.
-- [ ] Consider having a Metadata section header as Matter does
-	- [ ] If you do that, probably also have Comment and Article headers
+- [ ] Use (*not* copy) R downloader to download YouTube video
+- [x] Consider having a Metadata section header as Matter does
+	- [x] If you do that, probably also have Comment and Article headers
 - [ ] Remove option to open in Obsidian, and use [Pushcut](https://www.reddit.com/r/shortcuts/comments/dzcri5/creating_notification_that_can_trigger_an_action/?utm_source=share&utm_medium=ios_app&utm_name=iossmf) to have a confirmation notification that also opens the note in Obsidian.
 	- [ ] As an alternative, perhaps put a confirmation alert at the end with an option to open Obsidian.
-- [ ] Have a default folder so that you don’t have to pick every time when they’re all going to Bookmarks.
+- [x] Have a default folder so that you don’t have to pick every time when they’re all going to Bookmarks.
 - [ ] Since I'm changing the name of the shortcut, need to delete the old one on first run.
 - [ ] Try using a folder action rather than manually inputting filepaths.
-- [ ] Learn how to use Automator/Apple script and write a script that will send data from a pre-Monterey Mac to Messages, to activate a Personal Automation.
+- [ ] Learn how to use Automator/AppleScript and write a script that will send data from a pre-Monterey Mac to Messages, to activate a Personal Automation.
 - [ ] Option to extract text from PDF
 - [ ] Given the automatic header in Obsidian 1.0, remove H1s from every template
 - [ ] Show how to set up a Personal Automation to automatically import Evernote exports
-- [ ] Import YouTube playlist (look at <https://routinehub.co/shortcut/4088/>?)
+- [ ] Import YouTube playlist (look at <https://routinehub.co/shortcut/4088/>)?
+- [x] Did I already fix the “YouTube app sends text type” problem and thus break YouTube support? Check.
 - [x] Do I really need “Link only” in New Note? Seems pointless. 
 	- [x] Apparently, as I've used it. 
 - [ ] Validate YAML, specifically titles. The only thing that messes things up is double quotes. Both single and double quotes would be a major problem. 
 	- [ ] Obviously, this is in the process of putting all the titles back, as requested (for 3.0 release)
-- [ ] Facebook
+	- [ ] Having umpteen different output sections is getting old. I don’t want to have to run whatever routine this turns out to be on every different one. On the other hand, this could happen at the end.
+- [ ] Move link to full readme to top of internal readme?
+	- [ ] Also don’t call them both the readme?
+- [x] Move “get urls” from the top to various places you need it. It is not useful unless you’re dealing with a URL type, right?
+- [ ] This list has gotten cumbersome and includes a bunch of stuff not fit for public consumption. Move what shouldn’t be public-facing to its own note and transclude the Proposed Features and Known Bugs there. 
+- [ ] Facebook support 
+- [ ] Twitter clips are currently in HTML. The way they're imported, it should be possible to display them in nice cards with JavaScript. Figure out how to do that in Obsidian: https://forum.obsidian.md/t/add-external-javascript-to-support-custom-webcomponents/42057 https://developer.twitter.com/en/docs/twitter-for-websites/javascript-api/guides/set-up-twitter-for-websites
+- [x] Maybe instead of proliferating options, I can have a startup option for “custom options.” If that's not selected, it will just import in Markdown without asking. 
+- [ ] Change “Use raw Web contents” to “More options.”
 - [ ] Possible Reddit improvements:
-	- [x] Preview image
+	- [ ] Preview image
 	- [x] HTML text
 	- [ ] Post flair
 	- [x] Option for link only
@@ -112,9 +124,9 @@ There are no immediate plans to fix these bugs, so if any of them are bothering 
 ### Similar products
 - [MarkDownload](https://forum.obsidian.md/t/markdownload-markdown-web-clipper/173)
 - [Obsidian Web Clipper](https://forum.obsidian.md/t/obsidian-web-clipper-bookmarklet-with-full-markdown-support-for-images-headings-and-code-blocks/22068)
+- [ReadItLater plugin](https://github.com/DominikPieper/obsidian-ReadItLater)
 - [Built-in Share Sheet extension](https://discord.com/channels/686053708261228577/694235607810965636/983742187869188146)
 - Other options are discussed at [How do I get content from websites into my notes?](https://forum.obsidian.md/t/how-do-i-get-content-from-websites-into-my-notes/1738)
-
 Let me know if you're aware of other products that should go here.
 
 ### Credits
@@ -126,9 +138,21 @@ Contains actions from:
 - [Dictionary all values example](https://www.reddit.com/r/shortcuts/comments/cx5xjc/working_with_dictionaries/)
 - [Dictionary keys and values example](https://www.reddit.com/r/shortcuts/comments/cx5xjc/working_with_dictionaries/)
 - [Remove JSON value by key](https://www.reddit.com/r/shortcuts/comments/akn3k0/data_storage_part_3_removing_stored_values/)
-- [Test - Get Info From Twitter URL 2](https://www.icloud.com/shortcuts/f1e8b7b57c7d4619be508a212eaabf73) (via <https://talk.automators.fm/t/save-tweet-information-via-siri-shortcuts/3697/7>
+- [Test - Get Info From Twitter URL 2](https://www.icloud.com/shortcuts/f1e8b7b57c7d4619be508a212eaabf73) (via [Automators Talk](https://talk.automators.fm/t/save-tweet-information-via-siri-shortcuts/3697/7>))
+- [Copy to Clipboard 2](https://www.reddit.com/r/shortcuts/comments/y90pwg/get_data_from_input_with_two_types/it2w482/)
 
 ## Version History
+
+### 3.0.0-a.2 (2022-10-20)
+#### New Features
+- Adds Titles back to frontmatter (in progress)
+- Supports Reddit comments (in progress)
+- Adds “More options” option in initial menus, to hide some choices unless they're needed
+	- Removed it again, because I hate it 
+- Adds “Use raw Web contents” option to Web import options, to improve import for webpages that don't support Safari Reader
+
+#### Bug Fixes
+- Fixes broken Web import
 
 ### 3.0.0-a.1 (2022-10-20 (begun 2022-04-21))—Reddit alpha 1
 #### New Features
@@ -230,4 +254,4 @@ Contains actions from:
 - Adds photo support
 
 ### 1.0.0
-- Initial release, inspired by <https://forum.obsidian.md/t/feature-ios-share-sheet-extension/14873/>
+- Initial release, inspired by “[[Feature] iOS share sheet extension](https://forum.obsidian.md/t/feature-ios-share-sheet-extension/14873)”
