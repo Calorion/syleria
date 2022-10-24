@@ -4,11 +4,11 @@
     <title>{{ collections.gardenEntry[0].fileSlug }}</title>
     {%include "components/pageheader.njk"%}
   </head>
-  <body class="theme-{{meta.baseTheme}} markdown-preview-view">
+  <body class="theme-{{meta.baseTheme}} markdown-preview-view markdown-rendered">
     {%include "components/notegrowthhistory.njk"%}
     <div class="content">
 
-      {% if collections.gardenEntry[0].dgShowInlineTitle === true %}
+      {% if collections.gardenEntry[0].data.dgShowInlineTitle === true %}
         <h1>{{ collections.gardenEntry[0].fileSlug }}</h1>
       {% endif %}
       {%- for garden in collections.gardenEntry -%}
