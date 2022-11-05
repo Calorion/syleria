@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/garden/obsidian-clipper-readme/","dgHomeLink":false,"dgPassFrontmatter":false,"dgShowBacklinks":false,"dgShowInlineTitle":false}
+{"dg-publish":true,"permalink":"/garden/obsidian-clipper-readme/","dgHomeLink":false,"dgShowInlineTitle":false}
 ---
 
 [Obsidian Clipper](https://routinehub.co/shortcut/11156/) Readme
@@ -34,7 +34,9 @@ Latest version always available at <https://routinehub.co/shortcut/11156/>
 
 If this has been helpful to you, feel free to [buy me a coffee!](https://www.buymeacoffee.com/calion)
 
-Please report any bugs in a comment on [RoutineHub](https://routinehub.co/shortcut/11156/) or on [Twitter](https://twitter.com/intent/tweet?text=@calion%20Re%20Obsidian%20Clipper%3A%20).
+Please report any bugs in a comment on [RoutineHub](https://routinehub.co/shortcut/11156/) or on [Twitter](https://twitter.com/messages/compose?text=Obsidian%20Clipper%20issue%3A%20&recipient_id=7663632).
+
+
 
 ### Known bugs and limitations
 - [ ] Text containing links to YouTube videos will not import as text, but as a YouTube video
@@ -114,6 +116,10 @@ There are no immediate plans to fix these bugs, so if any of them are bothering 
 - [ ] Twitter clips are currently in HTML. The way they're imported, it should be possible to display them in nice cards with JavaScript. Figure out how to do that in Obsidian: https://forum.obsidian.md/t/add-external-javascript-to-support-custom-webcomponents/42057 https://developer.twitter.com/en/docs/twitter-for-websites/javascript-api/guides/set-up-twitter-for-websites
 - [x] Maybe instead of proliferating options, I can have a startup option for “custom options.” If that's not selected, it will just import in Markdown without asking. 
 - [ ] Change “Use raw Web contents” to “More options.”
+- [ ] Use your link shortener app for the Twitter links in the docs for all shortcuts
+- [ ] Regularize formatting and content in readmes in all shortcuts and all locations (Garden, RoutineHub, internal)
+- [ ] Combine the two Evernote options and provide an option to prepend “Exported to Obsidian on \<date\>” and the link to the note in Obsidian
+- [ ] Default to html for Web import, and restore “more options”
 - [ ] Possible Reddit improvements:
 	- [ ] Preview image
 	- [x] HTML text
