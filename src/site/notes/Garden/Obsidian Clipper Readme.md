@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-home-link":false,"dg-show-inline-title":false,"title":"Obsidian Clipper Readme","url":"https://syleria.netlify.app/garden/obsidian-clipper-readme/","created":"2022-09-21T11:01:39-05:00","updated":"2022-10-18T21:21:24-05:00","aliases":[],"tags":[null],"permalink":"/garden/obsidian-clipper-readme/","dgHomeLink":false,"dgShowInlineTitle":false,"dgPassFrontmatter":true}
+{"dg-publish":true,"permalink":"/garden/obsidian-clipper-readme/","dgHomeLink":false,"dgShowInlineTitle":false}
 ---
 
 [Obsidian Clipper](https://routinehub.co/shortcut/11156/) Readme
