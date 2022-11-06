@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/garden/syleria-digital-garden/","tags":["admin","seedling🌱","gardenEntry"],"dgShowInlineTitle":true}
+{"dg-publish":true,"permalink":"/garden/syleria-digital-garden/","tags":["admin","seedling🌱","gardenEntry"]}
 ---
 
 
